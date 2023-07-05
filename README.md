@@ -2,7 +2,7 @@
 
 Aplikasi Cuaca
 
-- [API dari openweathermap](https://openweathermap.org/)
+- API dari[ openweathermap](https://openweathermap.org/)
 
 ## Screenshot
 
