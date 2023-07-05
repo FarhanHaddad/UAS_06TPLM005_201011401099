@@ -27,7 +27,7 @@ class WeatherHomePage extends StatefulWidget {
 }
 
 class _WeatherHomePageState extends State<WeatherHomePage> {
-  String namaKota = "Tangerang Selatan";
+  String namaKota = "Jakarta";
   int temperature = 0;
   int maxTemperature = 0;
   int minTemperature = 0;
@@ -70,7 +70,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: NetworkImage('https://i.postimg.cc/nzWD0YTC/wp7170402.jpg'),
+            image: NetworkImage('https://i.postimg.cc/d1PKxQDy/bg.png'),
             fit: BoxFit.cover,
           ),
         ),
@@ -84,7 +84,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
                 style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Color.fromARGB(255, 59, 31, 31),
                     fontFamily: 'SigmaFive'),
               ),
               SizedBox(height: 8),
@@ -93,7 +93,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
                 style: TextStyle(
                     fontSize: 20,
                     fontFamily: 'SigmaFive',
-                    color: const Color.fromARGB(255, 228, 224, 224)),
+                    color: const Color.fromARGB(255, 59, 31, 31)),
               ),
               SizedBox(height: 20),
               Text(
@@ -102,20 +102,21 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
                     fontSize: 60,
                     height: 1.0,
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    color: Color.fromARGB(255, 59, 31, 31),
                     fontFamily: 'SigmaFive'),
               ),
               SizedBox(height: 0),
               Text(
                 '---------',
-                style: TextStyle(fontSize: 60, color: Colors.white),
+                style: TextStyle(
+                    fontSize: 60, color: Color.fromARGB(255, 59, 31, 31)),
               ),
               SizedBox(height: 15),
               Text(
                 deskripsiCuaca,
                 style: TextStyle(
                     fontSize: 24,
-                    color: Colors.white,
+                    color: const Color.fromARGB(255, 59, 31, 31),
                     fontWeight: FontWeight.bold,
                     fontFamily: 'SigmaFive'),
               ),
@@ -125,7 +126,7 @@ class _WeatherHomePageState extends State<WeatherHomePage> {
                 style: TextStyle(
                     fontSize: 20,
                     fontFamily: 'SigmaFive',
-                    color: const Color.fromARGB(255, 228, 224, 224)),
+                    color: const Color.fromARGB(255, 59, 31, 31)),
               ),
             ],
           ),
